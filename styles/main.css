@@ -49,7 +49,7 @@ header a:hover {
 .pageTitle {
     position:absolute;
     display:inline-block;
-    margin: 200px 0 0 20px;
+    margin: 20% 0 0 20px;
     font:46px/50px normal georgia, serif;
     /color: #fff; 
 }
