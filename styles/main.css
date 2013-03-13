@@ -1,0 +1,51 @@
+body, html {
+    color: #333;
+    font:16px/20px normal georgia, serif;
+}
+header {
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);  
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header h1 {
+    display: inline-block;
+    font:18px/20px normal georgia, serif;    
+    clear: none;
+    vertical-align:middle;
+}
+header nav {
+    display: inline-block;
+    vertical-align:middle;
+    font:12px/14px normal georgia, serif;    
+    margin: 0 0 0 20px;
+}
+header a {
+    color: #333;
+    text-decoration: none;
+    padding: 3px 6px;
+    white-space:nowrap;
+}
+header a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+article {
+    margin: 100px 0 30px 20px;
+    width: 60%;
+    max-width: 600px; 
+}
+p {
+    margin: 30px 0;    
+}
+
+footer {
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);  
+    padding: 10px;
+    text-align: right;
+}
